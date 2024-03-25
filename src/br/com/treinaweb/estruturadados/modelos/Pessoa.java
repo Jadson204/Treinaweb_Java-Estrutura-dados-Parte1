@@ -1,5 +1,7 @@
 package br.com.treinaweb.estruturadados.modelos;
 
+import java.util.Objects;
+
 public class Pessoa {
 
     private int id;
@@ -29,5 +31,23 @@ public class Pessoa {
     @Override
     public String toString() {
         return "Pessoa [id=" + id + ", nome=" + nome + "]";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Pessoa)) return false;
+
+        Pessoa pessoa = (Pessoa) o;
+
+        if (getId() != pessoa.getId()) return false;
+        return getNome().equals(pessoa.getNome());
+    }
+
+    @Override
+    public int hashCode() {
+        int result = getId();
+        result = 31 * result + getNome().hashCode();
+        return result;
     }
 }
