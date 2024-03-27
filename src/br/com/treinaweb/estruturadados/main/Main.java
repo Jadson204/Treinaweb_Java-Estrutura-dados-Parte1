@@ -1,6 +1,7 @@
 package br.com.treinaweb.estruturadados.main;
 
 import br.com.treinaweb.estruturadados.modelos.Pessoa;
+import br.com.treinaweb.estruturadados.vetores.Vetor;
 
 import java.util.Scanner;
 
@@ -46,12 +47,9 @@ public class Main {
     }
 
     private static void fazerVetor() {
-        Pessoa[] vetorPessoas = new Pessoa[3];
-        vetorPessoas[0] = new Pessoa(1, "Treinaweb no vetor");
-        System.out.println(vetorPessoas[0].getNome());
-        int[] vetorInteiros = new int[3];
-        System.out.println(vetorInteiros[0]);
-        System.out.println(vetorInteiros[3]);
+        Vetor vetorPessoas = new Vetor(3);
+        vetorPessoas.inserirEm(0, new Pessoa(1, "Treinaweb"));
+        System.out.println(vetorPessoas.recuperar(0).getNome());
     }
 
 }
