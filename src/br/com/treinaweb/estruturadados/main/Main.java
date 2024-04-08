@@ -3,13 +3,16 @@ package br.com.treinaweb.estruturadados.main;
 import br.com.treinaweb.estruturadados.modelos.Pessoa;
 import br.com.treinaweb.estruturadados.vetores.Vetor;
 
+import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.Vector;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Digite a opção desejada: ");
         System.out.println("1. Gerenciamento de memória");
         System.out.println("2. Vetores");
+        System.out.print("Digte: ");
         Scanner scanner = new Scanner(System.in);
         int opcao = scanner.nextInt();
         switch(opcao) {
@@ -64,6 +67,10 @@ public class Main {
         System.out.println(vetorPessoas.contem(pessoaErrada));
         System.out.println(vetorPessoas.indice(p));
         System.out.println(vetorPessoas.indice(pessoaErrada));
+        vetorPessoas.remover(2);
+        System.out.println(vetorPessoas.toString());
+        vetorPessoas.remover(p);
+        System.out.println(vetorPessoas.toString());
     }
 
 }
