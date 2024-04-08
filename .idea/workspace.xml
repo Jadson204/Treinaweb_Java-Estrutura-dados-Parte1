@@ -50,6 +50,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.treinaweb.estruturadados.main.Main" />
+      <module name="tw-estrutura-dados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.treinaweb.estruturadados.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,7 +93,9 @@
       <workItem from="1711629013314" duration="286000" />
       <workItem from="1711634195368" duration="2294000" />
       <workItem from="1711972458673" duration="37000" />
-      <workItem from="1712071020106" duration="1970000" />
+      <workItem from="1712071020106" duration="4608000" />
+      <workItem from="1712326957304" duration="3032000" />
+      <workItem from="1712584763019" duration="954000" />
     </task>
     <servers />
   </component>

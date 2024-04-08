@@ -47,12 +47,14 @@ public class Main {
     }
 
     private static void fazerVetor() {
-        Vetor<Pessoa> vetorPessoas = new Vetor<Pessoa>(3);
-        vetorPessoas.inserirEm(0, new Pessoa(1, "Treinaweb"));
-        System.out.println(vetorPessoas.recuperar(0).getNome());
-        Vetor<Integer> vetorInteiros = new Vetor<Integer>(2);
-        vetorInteiros.inserirEm(0, 1);
-        System.out.println(vetorInteiros.recuperar(0));
+        Vetor<Pessoa> vetorPessoas = new Vetor<Pessoa>();
+        vetorPessoas.inserir(new Pessoa(1, "Treinaweb1"));
+        vetorPessoas.inserir(new Pessoa(2, "Treinaweb2"));
+        vetorPessoas.inserir(new Pessoa(3, "Treinaweb3"));
+        vetorPessoas.inserir(new Pessoa(4, "Treinaweb4"));
+        vetorPessoas.inserirEm(1, new Pessoa(5, "Treinaweb5"));
+        System.out.println(vetorPessoas);
+
     }
 
 }
