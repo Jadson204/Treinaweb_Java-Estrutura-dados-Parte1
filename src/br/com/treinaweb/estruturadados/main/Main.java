@@ -58,7 +58,12 @@ public class Main {
         for (int i = 0; i < vetorPessoas.tamanho(); i++) {
             System.out.println(vetorPessoas.recuperar(i).getNome());
         }
-
+        Pessoa p = vetorPessoas.recuperar(1);
+        Pessoa pessoaErrada = new Pessoa(100, "Treinaweb 100");
+        System.out.println(vetorPessoas.contem(p));
+        System.out.println(vetorPessoas.contem(pessoaErrada));
+        System.out.println(vetorPessoas.indice(p));
+        System.out.println(vetorPessoas.indice(pessoaErrada));
     }
 
 }
