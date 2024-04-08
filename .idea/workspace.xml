@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d0541fdb-12db-43cd-b772-f3487bdb956b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/vetores/Vetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/vetores/Vetor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +94,7 @@
       <workItem from="1711972458673" duration="37000" />
       <workItem from="1712071020106" duration="4608000" />
       <workItem from="1712326957304" duration="3032000" />
-      <workItem from="1712584763019" duration="954000" />
+      <workItem from="1712584763019" duration="1776000" />
     </task>
     <servers />
   </component>

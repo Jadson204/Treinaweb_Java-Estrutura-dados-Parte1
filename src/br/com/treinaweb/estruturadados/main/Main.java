@@ -54,6 +54,10 @@ public class Main {
         vetorPessoas.inserir(new Pessoa(4, "Treinaweb4"));
         vetorPessoas.inserirEm(1, new Pessoa(5, "Treinaweb5"));
         System.out.println(vetorPessoas);
+        System.out.println("Lista de pessoas: ");
+        for (int i = 0; i < vetorPessoas.tamanho(); i++) {
+            System.out.println(vetorPessoas.recuperar(i).getNome());
+        }
 
     }
 
