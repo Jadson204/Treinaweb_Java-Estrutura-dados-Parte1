@@ -19,7 +19,9 @@ public class ListaLigada<T> {
             this.ultimoNo = novoNo;
         } else {
             this.ultimoNo.setProximo(novoNo);
+            this.ultimoNo = novoNo;
         }
+        this.tamanho++;
     }
 
     public boolean estaVazia() {
@@ -30,4 +32,23 @@ public class ListaLigada<T> {
         return this.tamanho;
     }
 
+    @Override
+    public String toString() {
+        if (estaVazia()) {
+            return "Lista []";
+        } else {
+            No<T> noAtual = this.primeiroNo;
+            StringBuilder sb = new StringBuilder();
+            sb.append("Lista [");
+            sb.append(noAtual.getElemento() != null ? noAtual.getElemento().toString() : "<NULO>");
+            sb.append(",");
+            while (noAtual.getProximo() != null) {
+                sb.append(noAtual.getProximo().getElemento() != null ? noAtual.getProximo().getElemento().toString() : "<NULO>");
+                sb.append(",");
+                noAtual= noAtual.getProximo();
+            }
+            sb.append("]");
+            return sb.toString();
+        }
+    }
 }

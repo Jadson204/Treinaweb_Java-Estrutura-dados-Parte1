@@ -7,6 +7,7 @@
     <list default="true" id="d0541fdb-12db-43cd-b772-f3487bdb956b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/listasligadas/ListaLigada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/listasligadas/ListaLigada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +98,7 @@
       <workItem from="1712584763019" duration="7087000" />
       <workItem from="1712614614648" duration="7815000" />
       <workItem from="1712665662023" duration="696000" />
+      <workItem from="1712671135977" duration="3387000" />
     </task>
     <servers />
   </component>
