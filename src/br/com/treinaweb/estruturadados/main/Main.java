@@ -36,6 +36,13 @@ public class Main {
         listaPessoas.inserir(new Pessoa(1, "Treinaweb 1"));
         listaPessoas.inserir(new Pessoa(2, "Treinaweb 2"));
         System.out.println(listaPessoas.toString());
+        Pessoa p = listaPessoas.recuperar(1);
+        Pessoa pessoaErrada = new Pessoa(100, "Treinaweb 100");
+        System.out.println(listaPessoas.contem(p));
+        System.out.println(listaPessoas.contem(pessoaErrada));
+        System.out.println(listaPessoas.indice(p));
+        System.out.println(listaPessoas.indice(pessoaErrada));
+
     }
 
     private static void fazerGerenciamentoMemoria() {
