@@ -35,6 +35,8 @@ public class Main {
         ListaLigada<Pessoa> listaPessoas = new ListaLigada<Pessoa>();
         listaPessoas.inserir(new Pessoa(1, "Treinaweb 1"));
         listaPessoas.inserir(new Pessoa(2, "Treinaweb 2"));
+        listaPessoas.inserir(new Pessoa(3, "Treinaweb 3"));
+        listaPessoas.inserirEm(1, new Pessoa(4, "Treinaweb 4"));
         System.out.println(listaPessoas.toString());
         Pessoa p = listaPessoas.recuperar(1);
         Pessoa pessoaErrada = new Pessoa(100, "Treinaweb 100");
@@ -42,7 +44,14 @@ public class Main {
         System.out.println(listaPessoas.contem(pessoaErrada));
         System.out.println(listaPessoas.indice(p));
         System.out.println(listaPessoas.indice(pessoaErrada));
-
+        listaPessoas.remover(p);
+        System.out.println(listaPessoas.toString());
+        listaPessoas.remover(0);
+        System.out.println(listaPessoas.toString());
+        System.out.println("Lista de pessoas");
+        for (int i = 0; i < listaPessoas.tamanho(); i++) {
+            System.out.println(listaPessoas.recuperar(i).toString());
+        }
     }
 
     private static void fazerGerenciamentoMemoria() {
