@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="330bf054-6feb-4a4a-86c4-8cde8c157123" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/listasligadas/No.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/listasligadas/No.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/listasligadas/ListaDuplamenteLigada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/listasligadas/ListaDuplamenteLigada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.treinaweb.estruturadados.listasligadas" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712929697145</updated>
-      <workItem from="1712929700448" duration="816000" />
+      <workItem from="1712929700448" duration="3040000" />
     </task>
     <servers />
   </component>
