@@ -1,12 +1,12 @@
 package br.com.treinaweb.estruturadados.listasligadas;
 
-public class ListaLigada<T> {
+public class ListaDuplamenteLigada<T> {
 
     private No<T> primeiroNo;
     private No<T> ultimoNo;
     private int tamanho;
 
-    public ListaLigada() {
+    public ListaDuplamenteLigada() {
         this.primeiroNo = null;
         this.ultimoNo = null;
         this.tamanho = 0;
@@ -19,6 +19,7 @@ public class ListaLigada<T> {
             this.ultimoNo = novoNo;
         } else {
             this.ultimoNo.setProximo(novoNo);
+            novoNo.setAnterior(this.ultimoNo);
             this.ultimoNo = novoNo;
         }
         this.tamanho++;
@@ -31,10 +32,12 @@ public class ListaLigada<T> {
         if (posicao == 0) {
             No<T> novoNo = new No<>(elemento);
             novoNo.setProximo(this.primeiroNo);
+            this.primeiroNo.setAnterior(this.primeiroNo);
             this.primeiroNo = novoNo;
         } else if (posicao == this.tamanho() - 1) {
             No<T> novoNo = new No<>(elemento);
             this.ultimoNo.setProximo(novoNo);
+            novoNo.setAnterior(this.ultimoNo);
             this.ultimoNo = novoNo;
         } else {
             No<T> noAnterior = recuperarNo(posicao - 1);
@@ -42,6 +45,8 @@ public class ListaLigada<T> {
             No<T> novoNo = new No<>(elemento);
             noAnterior.setProximo(novoNo);
             novoNo.setProximo(noAtual);
+            noAtual.setAnterior(novoNo);
+            novoNo.setAnterior(noAnterior);
         }
         this.tamanho++;
     }

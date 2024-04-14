@@ -1,9 +1,10 @@
 package br.com.treinaweb.estruturadados.listasligadas;
 
-public class No<T> {
+class No<T> {
 
     private T elemento;
     private No<T> proximo;
+    private No<T> anterior;
 
     public No() {
         this.proximo = null;
@@ -33,5 +34,13 @@ public class No<T> {
 
     public void setProximo(No<T> proximo) {
         this.proximo = proximo;
+    }
+
+    public No<T> getAnterior() {
+        return anterior;
+    }
+
+    public void setAnterior(No<T> anterior) {
+        this.anterior = anterior;
     }
 }
