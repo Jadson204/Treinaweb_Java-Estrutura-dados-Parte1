@@ -1,5 +1,6 @@
 package br.com.treinaweb.estruturadados.main;
 
+import br.com.treinaweb.estruturadados.listasligadas.ListaDuplamenteLigada;
 import br.com.treinaweb.estruturadados.listasligadas.ListaLigada;
 import br.com.treinaweb.estruturadados.modelos.Pessoa;
 import br.com.treinaweb.estruturadados.vetores.Vetor;
@@ -12,6 +13,7 @@ public class Main {
         System.out.println("1. Gerenciamento de memória");
         System.out.println("2. Vetores");
         System.out.println("3. Lista ligada");
+        System.out.println("4. Lista duplmamente ligada");
         System.out.print("Digte: ");
         Scanner scanner = new Scanner(System.in);
         int opcao = scanner.nextInt();
@@ -25,8 +27,34 @@ public class Main {
             case 3:
                 fazerListaLigada();
                 break;
+            case 4:
+                fazerListaDuplamenteLIgada();
+                break;
         }
         scanner.close();
+    }
+
+    private static void fazerListaDuplamenteLIgada() {
+        ListaDuplamenteLigada<Pessoa> listaPessoas = new ListaDuplamenteLigada<Pessoa>();
+        listaPessoas.inserir(new Pessoa(1, "Treinaweb 1"));
+        listaPessoas.inserir(new Pessoa(2, "Treinaweb 2"));
+        listaPessoas.inserir(new Pessoa(3, "Treinaweb 3"));
+        listaPessoas.inserirEm(1, new Pessoa(4, "Treinaweb 4"));
+        System.out.println(listaPessoas.toString());
+        Pessoa p = listaPessoas.recuperar(1);
+        Pessoa pessoaErrada = new Pessoa(100, "Treinaweb 100");
+        System.out.println(listaPessoas.contem(p));
+        System.out.println(listaPessoas.contem(pessoaErrada));
+        System.out.println(listaPessoas.indice(p));
+        System.out.println(listaPessoas.indice(pessoaErrada));
+        listaPessoas.remover(p);
+        System.out.println(listaPessoas.toString());
+        listaPessoas.remover(0);
+        System.out.println(listaPessoas.toString());
+        System.out.println("Lista de pessoas");
+        for (int i = 0; i < listaPessoas.tamanho(); i++) {
+            System.out.println(listaPessoas.recuperar(i).toString());
+        }
     }
 
     private static void fazerListaLigada() {
