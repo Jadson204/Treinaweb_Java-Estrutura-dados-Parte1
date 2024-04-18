@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cee87e92-757e-4378-863f-1901cf2dd8ca" name="Changes" comment="&quot;Arquivo workspace.xml&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a4f57218e9da8b829f0bb7ddbef6237ca20e7d3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a4f57218e9da8b829f0bb7ddbef6237ca20e7d3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/filas/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/filas/Fila.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713352938370</updated>
       <workItem from="1713352939579" duration="178000" />
-      <workItem from="1713454783124" duration="791000" />
+      <workItem from="1713454783124" duration="1206000" />
     </task>
     <servers />
   </component>
