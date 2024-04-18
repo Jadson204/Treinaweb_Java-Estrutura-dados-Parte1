@@ -1,5 +1,6 @@
 package br.com.treinaweb.estruturadados.main;
 
+import br.com.treinaweb.estruturadados.filas.Fila;
 import br.com.treinaweb.estruturadados.listasligadas.ListaDuplamenteLigada;
 import br.com.treinaweb.estruturadados.listasligadas.ListaLigada;
 import br.com.treinaweb.estruturadados.modelos.Pessoa;
@@ -16,6 +17,7 @@ public class Main {
         System.out.println("3. Lista ligada");
         System.out.println("4. Lista duplmamente ligada");
         System.out.println("5. Pilha");
+        System.out.println("6. Filha");
         System.out.print("Digte: ");
         Scanner scanner = new Scanner(System.in);
         int opcao = scanner.nextInt();
@@ -35,8 +37,22 @@ public class Main {
             case 5:
                 fazerPilha();
                 break;
+            case 6:
+                fazerFila();
+                break;
         }
         scanner.close();
+    }
+
+    private static void fazerFila() {
+        Fila<Pessoa> filaPessoas = new Fila<Pessoa>();
+        System.out.println(filaPessoas.estaVazia());
+        filaPessoas.enfileirar(new Pessoa(1, "Treinaweb 1"));
+        filaPessoas.enfileirar(new Pessoa(2, "Treinaweb 2"));
+        System.out.println(filaPessoas.toString());
+        Pessoa p = filaPessoas.desenfileirar();
+        System.out.println(p.toString());
+        System.out.println(filaPessoas.toString());
     }
 
     private static void fazerPilha() {

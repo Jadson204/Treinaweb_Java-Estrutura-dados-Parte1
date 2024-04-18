@@ -27,4 +27,8 @@ public class Fila<T> {
         return this.elementos.estaVazia();
     }
 
+    @Override
+    public String toString() {
+        return "Fila{"+ elementos + "}";
+    }
 }
