@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cee87e92-757e-4378-863f-1901cf2dd8ca" name="Changes" comment="&quot;Arquivo workspace.xml&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e45439b30643d23645ee1b333c780823b3cfec6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e45439b30643d23645ee1b333c780823b3cfec6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/filas/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/filas/Fila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/treinaweb/estruturadados/main/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="cee87e92-757e-4378-863f-1901cf2dd8ca" name="Changes" comment="&quot;Arquivo workspace.xml&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/usuario/Documents/sptrans-core",
+    "last_opened_file_path": "C:/Users/jadso/OneDrive/Documentos/treinaweb/Treinaweb_Java-Estrutura-dados-Parte2",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
